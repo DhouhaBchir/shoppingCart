@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingCart (Snapshot) Login Page renders Login 1`] = `
+<div
+  className="shopping_cart"
+>
+  <div>
+    <div
+      className="product_cart_item"
+    >
+      <img
+        className="product_cart_logo"
+        src="/src/product.png"
+      />
+      <p
+        className="product_cart_name"
+      >
+        Product 1
+      </p>
+      <p>
+        5
+        $
+      </p>
+      <button
+        className="product_cart_remove"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+    <div
+      className="product_cart_item"
+    >
+      <img
+        className="product_cart_logo"
+        src="/src/product.png"
+      />
+      <p
+        className="product_cart_name"
+      >
+        Product 2
+      </p>
+      <p>
+        5
+        $
+      </p>
+      <button
+        className="product_cart_remove"
+        onClick={[Function]}
+      >
+        X
+      </button>
+    </div>
+  </div>
+  <p>
+    Total: 
+    10
+  </p>
+</div>
+`;

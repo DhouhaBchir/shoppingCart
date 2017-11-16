@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 
 class ProductItem extends Component {
-    addToCart(id) {
-        return (e) => this.props.dispatch(this.props.addRemoveProductToCart(id));
-    }
     render() {
         return (
             <div className="products_item">
